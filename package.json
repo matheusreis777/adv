@@ -1,0 +1,23 @@
+{
+  "name": "adv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusreis777/adv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusreis777/adv/issues"
+  },
+  "homepage": "https://github.com/matheusreis777/adv#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
