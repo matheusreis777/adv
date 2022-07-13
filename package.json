@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/matheusreis777/adv#readme",
   "dependencies": {
+    "next": "^12.2.2",
     "react": "^18.2.0"
   }
 }
