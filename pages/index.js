@@ -15,6 +15,7 @@ import {
     NavbarText
 } from 'reactstrap';
 
+
 const Headers = (props) => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -22,22 +23,27 @@ const Headers = (props) => {
 
     return (
         <div>
-            <Navbar  style={{ backgroundColor: "#20283b" }} dark expand="md">
+            <Navbar style={{ backgroundColor: "#20283b" }} dark expand="md">
+                
                 <NavbarBrand href="/">Logo</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
+
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className="mr-auto" navbar>
-                        <NavItem>
-                            <NavLink href="/">Quem Somos</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/">Serviços</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/">Contato</NavLink>
-                        </NavItem>
-                    </Nav>
+                    <div style={{ textAlign: "right" }}>
+                        <Nav className="mr-auto" navbar>
+                            <NavItem>
+                                <NavLink href="/">Quem Somos</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/">Serviços</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/">Contato</NavLink>
+                            </NavItem>
+                        </Nav>
+                    </div>
                 </Collapse>
+
             </Navbar>
         </div>
     );
